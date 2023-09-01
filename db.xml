@@ -1,0 +1,56 @@
+<hotels>
+    <hotel name="Venus Hotel" location="Paris, France">
+        <room number="100" floor="1" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="101" floor="1" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="102" floor="1" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="103" floor="1" prm="true">
+            <bed>90</bed>
+            <bed>90</bed>
+        </room>
+        <room number="104" floor="1" prm="true">
+            <bed>90</bed>
+            <bed>90</bed>
+        </room>
+        <room number="105" floor="1">
+            <bed>140</bed>
+        </room>
+        <room number="106" floor="1">
+            <bed>140</bed>
+        </room>
+        <room number="107" floor="1">
+            <bed>140</bed>
+        </room>
+        <room number="200" floor="2" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="201" floor="2" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="202" floor="2" prm="true">
+            <bed>140</bed>
+        </room>
+        <room number="203" floor="2" prm="true">
+            <bed>90</bed>
+            <bed>90</bed>
+        </room>
+        <room number="204" floor="2" prm="true">
+            <bed>90</bed>
+            <bed>90</bed>
+        </room>
+        <room number="205" floor="2">
+            <bed>140</bed>
+        </room>
+        <room number="206" floor="2">
+            <bed>140</bed>
+        </room>
+        <room number="207" floor="2">
+            <bed>140</bed>
+        </room>
+    </hotel>
+</hotels>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/scripts/db.js"></script>
+    <script src="/scripts/main.js"></script>
+    <title>Bookotel</title>
+</head>
+
+<body>
+    <main>
+        <div class="search">
+            <form method="dialog">
+                <input list="cities" id="location" name="location" value="Paris, France">
+                <datalist id="cities">
+                    <option value="New York, USA">
+                    <option value="Los Angeles, USA">
+                    <option value="Chicago, USA">
+                    <option value="San Francisco, USA">
+                    <option value="Miami, USA">
+                    <option value="Paris, France">
+                </datalist>
+                <input type="date" name="from" id="from" value="2023-09-01">
+                <input type="date" name="to" id="to" value="2023-09-10">
+                <label for="prm">PRM Accessible</label>
+                <input type="checkbox" name="prm" id="prm">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+        <div class="results"></div>
+        <script src="/scripts/search.js"></script>
+    </main>
+</body>
+
+</html>
